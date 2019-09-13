@@ -150,6 +150,7 @@ font-weight: 700;
     
 }
 .about-info__title {
+    text-align: center;
     font-size: 3rem;
     text-transform: capitalize;
     letter-spacing: 0.5rem;
@@ -160,12 +161,42 @@ color: var(--grey);
 line-height: 1.5;
 font-size: 1.2rem;
 margin: 3rem 0.5rem;
+text-align: center;
 }
 @media screen and (min-width:992px){
 .about__center {
     display: flex;
     justify-content: space-between;
 }}
+.all-about-me {
+    background: var(--SectionGrey);
+    padding: 3rem 0;
+    max-width: 90vh;
+    margin: 2rem auto;
+}
+
+
+.isla, .camping, .pool {
+    color:  var(--grey);
+    margin: 2rem auto;
+    text-align: center;
+    transition: all 0.6 ease;
+    margin: 2rem 3rem;
+    padding: 2rem 0;
+}
+.isla, .camping, .pool:hover {
+    background: var(--light);
+    box-shadow: 0 15 20 rgba(o,0,0,0.1)
+}
+li {
+    padding-left: 22px;
+    padding-bottom: 8px; 
+}
+h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--Blue)
+}
 /* .isla, .camping, .pool {
  /* height: 19rem;
  width: 35rem; */
@@ -178,11 +209,11 @@ margin: 3rem 0.5rem;
  background: #1c914c;
  
 } */ 
-.isla, .camping, .pool {
+/* .isla, .camping, .pool {
  margin: 2rem auto;
  padding: 5rem;
- text-align: center;
-}
+ text-align: 
+} */
 .favorite {
  background: var(--SectionGrey);
  color: var(--grey);
@@ -192,10 +223,13 @@ margin: 3rem 0.5rem;
  line-height: 1.5;
 
 }
+
 .container {
+   
  max-width: 760px;
- margin: 5rem 10rem;
+ margin: 3rem 5rem;
  border: var(--Blue) solid 10px;
+
 }
 .main-img img,
 .imgs img {
@@ -205,6 +239,7 @@ margin: 3rem 0.5rem;
  display: grid;
  grid-template-columns: repeat(4, 1fr);
  gap: 5px;
+ 
 }
 @keyframes fadeIn {
  to {
@@ -217,6 +252,8 @@ margin: 3rem 0.5rem;
 }
 .btn-container {
  text-align: center;
+ margin: 1rem;
+ padding: 0.5rem;
 }
 #quiz {
  /* height: 3rem;
