@@ -1,0 +1,58 @@
+<section class="favorite-things">
+        <div class="favorite">
+            <h1 class="favorite-title">Favorite Things</h1>
+        </div>
+        <div class="services__center">
+            <!-- single service -->
+            <article class="services__single-service">
+                
+
+                <h2 class="services__single-service-title">facebook</h2>
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur id, ipsam saepe repellat
+                    consequatur delectus provident recusandae ipsum quibusdam, tempore deserunt non error ea magnam
+                    ducimus ut quaerat quas! Mollitia?
+                </p>
+            </article>
+            <!-- single service -->
+            <article class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fab fa-twitter-square"></i>
+
+
+
+
+                </div>
+                <h2 class="services__single-service-title">twitter</h2>
+
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur id, ipsam saepe repellat
+                    consequatur delectus provident recusandae ipsum quibusdam, tempore deserunt non error ea magnam
+                    ducimus ut quaerat quas! Mollitia?
+                </p>
+            </article>
+            <!-- single service -->
+            <article class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fab fa-linkedin"></i>
+
+
+
+
+                </div>
+                <h2 class="services__single-service-title">linkedin</h2>
+
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur id, ipsam saepe repellat
+                    consequatur delectus provident recusandae ipsum quibusdam, tempore deserunt non error ea magnam
+                    ducimus ut quaerat quas! Mollitia?
+                </p>
+            </article>
+            <!-- single service -->
+            <article class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fas fa-code-branch"></i>
+
+
+
+                </div>
