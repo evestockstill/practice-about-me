@@ -178,9 +178,16 @@ margin: 3rem 0.5rem;
  background: #1c914c;
  
 } */ 
+.isla, .camping, .pool {
+ margin: 2rem auto;
+ padding: 5rem;
+ text-align: center;
+}
 .favorite {
- width: 80%;
- margin: 0 auto;
+ background: var(--SectionGrey);
+ color: var(--grey);
+ width: 100%;
+ margin: 0 45px;
  text-align: left;
  line-height: 1.5;
 
@@ -188,7 +195,7 @@ margin: 3rem 0.5rem;
 .container {
  max-width: 760px;
  margin: 5rem 10rem;
- border: #089bd1 solid 5px;
+ border: var(--Blue) solid 10px;
 }
 .main-img img,
 .imgs img {
@@ -212,7 +219,7 @@ margin: 3rem 0.5rem;
  text-align: center;
 }
 #quiz {
- height: 3rem;
+ /* height: 3rem;
  width: 8rem;
  text-align: center; 
   border: none;
@@ -224,11 +231,34 @@ margin: 3rem 0.5rem;
   border-radius: 7px;
   box-shadow: 2px 5px #111e24;
   cursor: pointer;
-  outline: none;
+  outline: none; */
+  background: var(--Blue);
+    color: var(--SectionGrey);
+    display: block;
+    margin: 0 auto;
+    border-radius: 7px;
+  box-shadow: 2px 5px #111e24;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    outline: none;
+    letter-spacing: 0.5rem;
+    transition: all 0.5s linear;
 }
 #quiz:hover {
-  color: #0e7338;
-  background: #1c323b;
+  color: var(--Blue);
+  background: var(--SectionGrey);
   transition: all 0.7s ease-in;
   
+}
+
+:root {
+    --light: #fff;
+    --dark: #181b24;
+    --grey: #899495;
+    --orange: #fc5130;
+    --SectionGrey: #f2f2f2;
+    --SectionWhite: #ffffff;
+    --Blue: #00cca3;
 }
