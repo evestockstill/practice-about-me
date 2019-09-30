@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'Roboto Mono', monospace;
+    background: var(--grey)
 }
 :root {
     --light: #fff;
@@ -82,8 +83,6 @@ cursor: pointer;
         color: var(--dark);
     }
 }
-/* end of nav */
-/* header */
 .header {
     min-height: 100vh;
     background: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.007)), url(./pictures/Enlight2.JPG)center/cover fixed no-repeat;
@@ -110,43 +109,19 @@ font-weight: 700;
     font-style: italic;
     text-transform: capitalize;
 }
-.banner_jobs {
+.banner_info {
     letter-spacing: 0.10rem;
     text-transform: capitalize;
     font-size: 1.2rem;
     color: var(--Blue)
 }
 .about {
-    padding: 2rem 0;
-    background: var(--SectionWhite);
+    padding: 2rem 1rem;
+    background: var(--grey);
 
 }
-/* .about__center {
-    max-width: 90vw;
-    margin: 2rem auto;
-}
-.about-img {
-    margin: 3rem 0;
-    position: relative;
-}
-.about-img__photo {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.about-img:before{
-    content: "";
-    background: var(--Blue);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: -17px;
-    left: -17px;
-   
-} */
 .about-info {
-    margin: 3rem 0;
+    margin: 3rem 1rem;
     
 }
 .about-info__title {
@@ -160,33 +135,14 @@ font-weight: 700;
 color: var(--grey);
 line-height: 1.5;
 font-size: 1.2rem;
-margin: 3rem 0.5rem;
+margin: 3rem 1rem;
 text-align: center;
 }
 @media screen and (min-width:992px){
 .about__center {
     display: flex;
     justify-content: space-between;
-}}
-.all-about-me {
-    background: var(--SectionGrey);
-    padding: 3rem 0;
-    max-width: 90vh;
-    margin: 2rem auto;
 }
-
-
-.isla, .camping, .pool {
-    color:  var(--grey);
-    margin: 2rem auto;
-    text-align: center;
-    transition: all 0.6 ease;
-    margin: 2rem 3rem;
-    padding: 2rem 0;
-}
-.isla, .camping, .pool:hover {
-    background: var(--light);
-    box-shadow: 0 15 20 rgba(o,0,0,0.1)
 }
 li {
     padding-left: 22px;
@@ -197,39 +153,24 @@ h4 {
     font-weight: 600;
     color: var(--Blue)
 }
-/* .isla, .camping, .pool {
- /* height: 19rem;
- width: 35rem; */
- /* display: block;
- color: #1c323b;
- margin: 3rem 5rem;
- overflow-wrap: break-word;
- border: #089bd1 solid 2px;
- padding: 1rem;
- background: #1c914c;
- 
-} */ 
-/* .isla, .camping, .pool {
- margin: 2rem auto;
- padding: 5rem;
- text-align: 
-} */
-.favorite {
+.favorit-things {
+    background: var(--grey);
+    color: var(--SectionGrey);
+    margin: 2rem 4rem;
+}
+.favorite-things {
  background: var(--SectionGrey);
  color: var(--grey);
- width: 100%;
- margin: 0 45px;
- text-align: left;
+ width: 70%;
+ margin: 0 auto;
+ text-align: center;
  line-height: 1.5;
-
 }
-
 .container {
    
  max-width: 760px;
- margin: 3rem 5rem;
+ margin: 0rem auto;
  border: var(--Blue) solid 10px;
-
 }
 .main-img img,
 .imgs img {
@@ -238,7 +179,7 @@ h4 {
 .imgs {
  display: grid;
  grid-template-columns: repeat(4, 1fr);
- gap: 5px;
+ gap: 7px;
  
 }
 @keyframes fadeIn {
@@ -256,19 +197,6 @@ h4 {
  padding: 0.5rem;
 }
 #quiz {
- /* height: 3rem;
- width: 8rem;
- text-align: center; 
-  border: none;
-  color: #0e7338;
-  background: #089bd1;
-  font-size: 2rem;
-  margin:  20px;
-  padding: 0.25rem 0.5rem;
-  border-radius: 7px;
-  box-shadow: 2px 5px #111e24;
-  cursor: pointer;
-  outline: none; */
   background: var(--Blue);
     color: var(--SectionGrey);
     display: block;
@@ -289,7 +217,6 @@ h4 {
   transition: all 0.7s ease-in;
   
 }
-
 :root {
     --light: #fff;
     --dark: #181b24;
